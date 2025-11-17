@@ -1,0 +1,24 @@
+name: pokepedia
+description: A fun Poképedia app with Lottie login and PokéAPI integration.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking & images
+  http: ^0.13.6
+  cached_network_image: ^3.2.3
+
+  # UI / animation
+  lottie: ^2.3.0
+  flutter_spinkit: ^5.1.0
+  google_fonts: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
